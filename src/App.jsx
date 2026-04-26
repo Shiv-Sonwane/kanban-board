@@ -2,6 +2,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { useState, useEffect, useMemo, useCallback } from "react";
 import Column from "./components/Column";
 import { moveCard, undo, redo, addCard, deleteCard } from "./store/boardSlice";
+import useDebounce from "./hooks/useDebounce";
+
 
 function App() {
   const [search, setSearch] = useState("");
@@ -71,13 +73,7 @@ function App() {
   }, [dispatch]);
 
   // Debounce Search
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setDebouncedSearch(search);
-    }, 300);
-
-    return () => clearTimeout(timer);
-  }, [search]);
+  const debouncedSearch = useDebounce(search, 300);
 
   //Real-time simulation
   useEffect(() => {
