@@ -4,6 +4,21 @@ A high-performance Kanban board built with React, implementing drag-and-drop, gl
 
 ---
 
+## 🚀 Live Demo
+https://resilient-sable-a99034.netlify.app/
+
+--- 
+
+## 📸 Screenshots
+* Profiler Screenshot (React DevTools)
+<img width="1838" height="352" alt="profiler" src="https://github.com/user-attachments/assets/e52b8542-8d2a-486c-9850-8a53878722b3" />
+
+* UI Screenshot (Light/Dark Mode)
+<img width="1842" height="1080" alt="light_mode" src="https://github.com/user-attachments/assets/fef045a8-deb9-42b8-87f2-9cc96b752fb7" />
+<img width="1842" height="1080" alt="dark_mode" src="https://github.com/user-attachments/assets/36d43d6f-c5fa-45bb-9f15-4dd09e1618b6" />
+
+---
+
 ## ⚙️ Tech Stack
 
 * React (Vite)
