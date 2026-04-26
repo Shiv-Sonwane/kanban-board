@@ -125,7 +125,8 @@ Using React DevTools Profiler:
 * No full board re-renders
 * Smooth interaction with 100+ cards
 
-📸 (Attach screenshot here)
+  <img width="1838" height="352" alt="profiler" src="https://github.com/user-attachments/assets/1cb69530-4f33-4fec-b1da-eb4b0b86501a" />
+
 
 ---
 
