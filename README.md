@@ -25,7 +25,6 @@ https://resilient-sable-a99034.netlify.app/
 * Redux Toolkit (Global State)
 * Native HTML5 Drag & Drop API
 * LocalStorage (Persistence)
-
 ---
 
 ## ✨ Features
